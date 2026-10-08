@@ -107,7 +107,9 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .person-info h3 { margin: 0 0 .5rem; font-size: 1.4rem; }
 .person-info h3 a { color: var(--ink); text-decoration: none; }
 .person-info h3 a:hover { color: var(--green-dark); text-decoration: underline; }
-.person-info > p:last-child { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.6; }
+.person-bio { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.6; }
+.person-bio p { margin: 0; }
+.person-bio p + p { margin-top: .9rem; }
 .alumni-section { padding-top: 1rem; }
 .alumni-section .person-card { display: grid; grid-template-columns: 115px 1fr; }
 .alumni-section .person-card img { height: auto; aspect-ratio: 3 / 4; }
