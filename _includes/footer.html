@@ -4,10 +4,6 @@
       <p class="footer-label">{{ site.title | escape }}</p>
       <p>{{ site.affiliation | escape }}</p>
     </div>
-    <div class="footer-contact">
-      <a href="mailto:{{ site.contact_email | escape }}">{{ site.contact_email | escape }}</a>
-      <p class="draft-note">{{ site.disclaimer | escape }}</p>
-    </div>
     <section class="footer-sponsors" aria-label="Institutional logos">
       <ul class="sponsor-list">
         {% for sponsor in site.data.sponsors %}
@@ -16,9 +12,13 @@
       </ul>
     </section>
     <nav class="footer-legal" aria-label="Legal information">
-      <a href="{{ '/legal-notice/' | relative_url }}">Legal Notice</a>
       <a href="{{ '/imprint/' | relative_url }}">Imprint</a>
       <a href="{{ '/data-policy/' | relative_url }}">Data Policy</a>
     </nav>
+    <div class="footer-meta">
+      <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <span aria-hidden="true">·</span>
+      <span>Powered by <a href="https://pages.github.com/">GitHub Pages</a></span>
+    </div>
   </div>
 </footer>

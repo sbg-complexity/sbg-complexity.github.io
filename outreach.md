@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Outreach
+title: Event & Outreach
 permalink: /outreach/
 description: Upcoming and past outreach events from the Salzburg Complexity Group.
 ---
-<header class="page-hero wrap"><p class="eyebrow">Meet, share, discuss</p><h1>Outreach</h1><p>Seminars, workshops, and conversations across research communities.</p></header>
+<header class="page-hero wrap"><p class="eyebrow">Meet, share, discuss</p><h1>Event &amp; Outreach</h1><p>Seminars, workshops, and conversations across research communities.</p></header>
 {% assign sorted_events = site.data.events | sort: 'date' %}
 {% assign build_seconds = site.time | date: '%s' | plus: 0 %}
 <section class="section wrap event-section">

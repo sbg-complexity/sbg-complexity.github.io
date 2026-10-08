@@ -23,7 +23,7 @@ description: The Salzburg Complexity Group researches model adaptation and criti
 </section>
 
 <section class="section wrap news-section">
-  <div class="section-heading"><div><p class="eyebrow">From the group</p><h2>News</h2></div><a class="text-link" href="{{ '/outreach/' | relative_url }}">Events &amp; outreach <span aria-hidden="true">→</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow">From the group</p><h2>News</h2></div><a class="text-link" href="{{ '/news/' | relative_url }}">News archive <span aria-hidden="true">→</span></a></div>
   <div class="news-list">
     {% assign latest_news = site.data.news | sort: 'date' | reverse %}
     {% for item in latest_news limit: 4 %}
