@@ -142,8 +142,9 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
   .sponsor-list .sponsor-university img { width: 250px; max-width: min(250px, 75vw); max-height: none; }
   .sponsor-list .sponsor-erc img { max-width: 118px; max-height: 112px; }
   .sponsor-list .sponsor-fwf img { max-width: 310px; max-height: 78px; }
-.footer-legal { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
-.footer-legal a { color: #394840; font-size: .82rem; }
+.footer-legal { display: flex; align-items: center; flex-wrap: wrap; gap: .55rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.footer-legal a { padding: .42rem .75rem; border: 1px solid rgba(57, 72, 64, .24); border-radius: 3px; background: rgba(255, 255, 255, .18); color: #394840; font-size: .78rem; text-decoration: none; transition: background-color .18s ease, border-color .18s ease, color .18s ease; }
+.footer-legal a:hover, .footer-legal a:focus-visible { border-color: var(--green-dark); background: var(--soft-green); color: var(--ink); }
 
 @media (prefers-color-scheme: dark) {
   :root { --paper: #151d19; --surface: #1c2721; --ink: #edf0e9; --muted: #bdc8be; --line: #3a4940; --green: #a4cbb0; --green-dark: #a7d2b4; --gold: #e0b570; --soft-green: #202f27; --shadow: 0 18px 45px rgba(0, 0, 0, .28); }
@@ -155,7 +156,7 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
   .closing-note, .site-footer { background: #202a24; }
   .closing-inner p:last-child, .footer-inner p { color: #c3cec4; }
   .footer-inner .footer-label { color: var(--ink); }
-  .footer-legal a { color: #c3cec4; }
+  .footer-legal a { border-color: var(--line); background: rgba(255, 255, 255, .025); color: #c3cec4; }
 }
 @media (max-width: 760px) {
   .wrap, .header-inner, .footer-inner { width: min(100% - 2rem, 600px); }
