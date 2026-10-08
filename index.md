@@ -35,7 +35,3 @@ description: The Salzburg Complexity Group researches model adaptation and criti
     {% endfor %}
   </div>
 </section>
-
-<section class="closing-note">
-  <div class="wrap closing-inner"><p class="eyebrow">A note on this site</p><p>{{ site.disclaimer | escape }}</p></div>
-</section>
