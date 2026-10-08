@@ -1,20 +1,32 @@
 current:
-  - name: Example Person
-    role: Group lead · Placeholder
-    interest: How adaptive models respond to changing environments.
-    image: /assets/img/person-placeholder.svg
-    image_alt: Neutral illustrated placeholder portrait
-    link: mailto:complexity.group@example.edu
-  - name: Example Researcher
-    role: Research fellow · Placeholder
-    interest: Early indicators of critical transitions in complex systems.
-    image: /assets/img/person-placeholder.svg
-    image_alt: Neutral illustrated placeholder portrait
-    link: mailto:complexity.group@example.edu
-alumni:
-  - name: Example Alumna
-    role: Former visiting researcher · Placeholder
-    interest: The dynamics of learning in networked systems.
-    image: /assets/img/person-placeholder.svg
-    image_alt: Neutral illustrated placeholder portrait
-    link: mailto:complexity.group@example.edu
+  - name: Patricia Palacios
+    role: Professor of Philosophy of Physics
+    interest: Emergence, reduction, idealization, phase transitions, and applications of statistical mechanics.
+    image: /assets/img/profiles/patricia.avif
+    image_alt: Portrait of Patricia Palacios
+  - name: Jessica Lauman-Lairson
+    role: Postdoctoral Fellow
+    interest: Analogical inference, template transfer, and cognitive bias in scientific reasoning.
+    image: /assets/img/profiles/jessica.jpg
+    image_alt: Portrait of Jessica Lauman-Lairson
+  - name: Pascal Rodriguez Warnier
+    role: Postdoctoral Fellow
+    interest: Thermal physics, scientific theory transfer, and the foundations of spacetime.
+    image: /assets/img/profiles/pascal.JPG
+    image_alt: Portrait of Pascal Rodriguez Warnier
+  - name: Rawad El Skaf
+    role: Humboldt Experienced Fellow · Postdoctoral Fellow
+    interest: Climate scenarios, value-laden expertise, and the IPCC’s policy-relevant but policy-neutral mandate.
+    image: /assets/img/profiles/rawad.jpg
+    image_alt: Portrait of Rawad El Skaf
+  - name: Helen Mocanu
+    role: PhD Student
+    interest: Imprecise probabilities, social epistemology, and decision theory.
+    image: /assets/img/profiles/helen.jpg
+    image_alt: Portrait of Helen Mocanu
+  - name: Jiang Zhang
+    role: Research Assistant
+    interest: Mathematical structure, invariance, emergence, and the foundations of mathematics and physics.
+    image: /assets/img/profiles/jiang.jpg
+    image_alt: Portrait of Jiang Zhang
+alumni: []
