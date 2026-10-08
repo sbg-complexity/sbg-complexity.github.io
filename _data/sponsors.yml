@@ -1,0 +1,14 @@
+# University and ERC images are the marks displayed in the MacBeh website footer.
+# FWF uses its current official English SVG logo variant.
+- name: University of Salzburg
+  image: /assets/img/sponsors/university-of-salzburg.png
+  image_alt: Paris Lodron University of Salzburg logo
+  url: https://www.plus.ac.at/
+- name: European Research Council
+  image: /assets/img/sponsors/erc.png
+  image_alt: European Research Council logo
+  url: https://erc.europa.eu/
+- name: Austrian Science Fund
+  image: /assets/img/sponsors/fwf.svg
+  image_alt: Austrian Science Fund FWF logo
+  url: https://www.fwf.ac.at/en/
