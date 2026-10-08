@@ -135,11 +135,13 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .footer-sponsors, .footer-legal { grid-column: 1 / -1; }
 .footer-sponsors { padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .footer-sponsors .eyebrow { margin-bottom: 1rem; }
-.sponsor-list { display: flex; align-items: center; flex-wrap: wrap; gap: 1.5rem 3rem; margin: 0; padding: 0; list-style: none; }
-.sponsor-list li { display: grid; place-items: center; min-width: 125px; min-height: 58px; }
-.sponsor-list a { display: grid; place-items: center; min-height: 58px; }
-.sponsor-list img { display: block; width: auto; max-width: 190px; height: auto; max-height: 54px; object-fit: contain; }
-.sponsor-list li:first-child img { max-width: 150px; max-height: 58px; }
+  .sponsor-list { display: flex; align-items: center; flex-wrap: wrap; gap: 1.75rem 3.25rem; margin: 0; padding: 0; list-style: none; }
+  .sponsor-list li { display: grid; place-items: center; min-width: 180px; min-height: 116px; }
+  .sponsor-list a { display: grid; place-items: center; min-height: 116px; }
+  .sponsor-list img { display: block; width: auto; max-width: 300px; height: auto; max-height: 100px; object-fit: contain; }
+  .sponsor-list .sponsor-university img { width: 250px; max-width: min(250px, 75vw); max-height: none; }
+  .sponsor-list .sponsor-erc img { max-width: 118px; max-height: 112px; }
+  .sponsor-list .sponsor-fwf img { max-width: 310px; max-height: 78px; }
 .footer-legal { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 .footer-legal a { color: #394840; font-size: .82rem; }
 
@@ -173,9 +175,12 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
   .news-arrow { grid-column: 2; grid-row: 1 / span 2; }
   .closing-inner, .footer-inner { grid-template-columns: 1fr; gap: .6rem; }
   .footer-sponsors, .footer-legal { grid-column: 1; }
-  .sponsor-list { gap: 1rem 1.5rem; }
-  .sponsor-list li { min-width: 100px; }
-  .sponsor-list img { max-width: 155px; }
+    .sponsor-list { gap: 1rem 1.5rem; }
+    .sponsor-list li { min-width: 135px; min-height: 96px; }
+    .sponsor-list a { min-height: 96px; }
+    .sponsor-list .sponsor-university img { width: 210px; }
+    .sponsor-list .sponsor-erc img { max-width: 94px; max-height: 90px; }
+    .sponsor-list .sponsor-fwf img { max-width: 235px; max-height: 64px; }
   .page-hero { padding-block: 3.5rem 2rem; }
   .project-grid { grid-template-columns: 1fr; padding-top: 0; }
   .year-group { grid-template-columns: 1fr; gap: 1rem; }

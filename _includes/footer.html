@@ -12,7 +12,7 @@
       <h2 id="sponsor-heading" class="eyebrow">Sponsors and institutional partners</h2>
       <ul class="sponsor-list">
         {% for sponsor in site.data.sponsors %}
-          <li><a href="{{ sponsor.url | escape }}"><img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.image_alt | escape }}" loading="lazy"></a></li>
+          <li class="sponsor-{{ sponsor.class | escape }}"><a href="{{ sponsor.url | escape }}" aria-label="{{ sponsor.name | escape }}"><img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.image_alt | escape }}" loading="lazy"></a></li>
         {% endfor %}
       </ul>
     </section>
