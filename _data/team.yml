@@ -92,11 +92,17 @@ current:
     image_position: 50% 58%
     image_origin: 50% 58%
 visitors:
-  - name: Example Visitor
-    role: Visiting Researcher · Placeholder
-    bio: Placeholder profile for a group visitor. Replace this text with a brief biography and research interests.
-    image: /assets/img/person-placeholder.svg
-    image_alt: Neutral illustrated placeholder portrait
+  - name: Turad Miguel Turad
+    role: Visiting Researcher · PhD Candidate
+    bio: |
+      I am a PhD candidate in philosophy of science at the Universidad Complutense de Madrid, supervised by Laura Nuño de la Rosa and María Cerezo. My doctoral research is funded by an FPI grant within the BioKoinos group's project Metaphysics of Biology: Processes and Dispositions. I am currently a visiting researcher in the Complexity Group at the University of Salzburg, hosted by Patricia Palacios.
+
+      My research focuses on emergence, and in particular on how its different varieties (synchronic and diachronic, weak and strong, ontological and epistemological) relate to one another. A central question in my work concerns the limits of synchronic emergence. I argue that synchronic emergence, taken on its own, can only ever be weak, and that genuinely novel properties require a diachronic account of how entities are transformed as they come together. During my stay in Salzburg, I am working on few-many emergence, the novel behaviour displayed by systems with very many components, such as the paramagnetic–ferromagnetic transition in magnetic materials, where the magnetic susceptibility diverges at the critical point. My aim is to determine whether few-many emergence is best understood as a form of synchronic emergence, a form of diachronic emergence, or something else altogether.
+    image: /assets/img/profiles/turad.jpeg
+    image_alt: Portrait of Turad Miguel Turad
+    image_scale: 1.0
+    image_position: 50% 50%
+    image_origin: 50% 50%
 alumni:
   - name: Example Alum
     role: Former Group Member · Placeholder

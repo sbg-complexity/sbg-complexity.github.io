@@ -6,6 +6,6 @@
   <div class="person-info">
     <p class="eyebrow">{{ member.role | escape }}</p>
     <h3>{% if member.link %}<a href="{{ member.link | escape }}">{{ member.name | escape }}</a>{% else %}{{ member.name | escape }}{% endif %}</h3>
-    <p class="person-bio">{{ member.bio | escape }}</p>
+    <div class="person-bio">{{ member.bio | markdownify }}</div>
   </div>
 </article>
