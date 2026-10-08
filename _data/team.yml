@@ -9,7 +9,8 @@ current:
       sciences.
     image: /assets/img/profiles/patricia.avif
     image_alt: Portrait of Patricia Palacios
-    image_scale: 1.05
+    image_scale: 1.0
+    image_position: 50% 55%
     image_origin: 50% 55%
     link: https://patriciapalacios.blog/
   - name: Jessica Lauman-Lairson
@@ -25,6 +26,7 @@ current:
     image: /assets/img/profiles/jessica.jpg
     image_alt: Portrait of Jessica Lauman-Lairson
     image_scale: 1.0
+    image_position: 50% 50%
     image_origin: 50% 50%
   - name: Pascal Rodriguez Warnier
     role: Postdoctoral Fellow
@@ -41,6 +43,7 @@ current:
     image: /assets/img/profiles/pascal.JPG
     image_alt: Portrait of Pascal Rodriguez Warnier
     image_scale: 1.0
+    image_position: 50% 50%
     image_origin: 50% 50%
   - name: Rawad El Skaf
     role: Humboldt Experienced Fellow · Postdoctoral Fellow
@@ -56,6 +59,7 @@ current:
     image: /assets/img/profiles/rawad.jpg
     image_alt: Portrait of Rawad El Skaf
     image_scale: 1.25
+    image_position: 50% 55%
     image_origin: 50% 55%
     link: https://sites.google.com/view/rawadelskaf/
   - name: Helen Mocanu
@@ -68,6 +72,7 @@ current:
     image: /assets/img/profiles/helen.jpg
     image_alt: Portrait of Helen Mocanu
     image_scale: 1.45
+    image_position: 50% 72%
     image_origin: 50% 72%
   - name: Jiang Zhang
     role: Research Assistant
@@ -84,6 +89,7 @@ current:
     image: /assets/img/profiles/jiang.jpg
     image_alt: Portrait of Jiang Zhang
     image_scale: 1.2
+    image_position: 50% 58%
     image_origin: 50% 58%
 visitors:
   - name: Example Visitor

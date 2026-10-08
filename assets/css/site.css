@@ -100,7 +100,7 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .team-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; padding-top: 1.5rem; }
 .person-card { overflow: hidden; background: var(--surface); border: 1px solid var(--line); }
 .person-image-link, .person-image { display: block; overflow: hidden; background: #e6eae2; }
-.person-card img { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; object-position: var(--portrait-origin, 50% 50%); transform: scale(var(--portrait-scale, 1)); transform-origin: var(--portrait-origin, 50% 50%); transition: transform .25s ease; }
+.person-card img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: var(--portrait-position, 50% 50%); transform: scale(var(--portrait-scale, 1)); transform-origin: var(--portrait-origin, 50% 50%); transition: transform .25s ease; }
 .person-image-link:hover img { transform: scale(calc(var(--portrait-scale, 1) + .025)); }
 .person-info { padding: 1.15rem 1.25rem 1.4rem; }
 .person-info .eyebrow { margin-bottom: .45rem; font-size: .68rem; }
@@ -110,7 +110,7 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .person-info > p:last-child { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.6; }
 .alumni-section { padding-top: 1rem; }
 .alumni-section .person-card { display: grid; grid-template-columns: 115px 1fr; }
-.alumni-section .person-card img { height: 100%; aspect-ratio: auto; }
+.alumni-section .person-card img { height: auto; aspect-ratio: 3 / 4; }
 .alumni-section .person-info { align-self: center; padding: 1rem; }
 .event-section { padding-top: 1rem; }
 .event-section > h2 { padding-bottom: 1.2rem; border-bottom: 1px solid var(--line); }
@@ -194,7 +194,7 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 @media (max-width: 430px) {
   .team-grid { grid-template-columns: 1fr; }
   .person-card { display: grid; grid-template-columns: 110px 1fr; align-items: center; }
-  .person-card img { height: auto; min-height: 0; aspect-ratio: 2 / 3; }
+  .person-card img { height: auto; min-height: 0; aspect-ratio: 3 / 4; }
   .person-info { padding: .8rem; }
   .person-info .eyebrow { font-size: .61rem; }
   .person-info h3 { font-size: 1.12rem; }

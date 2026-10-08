@@ -1,7 +1,7 @@
 {% assign member = include.member %}
 <article class="person-card">
   {% if member.link %}<a class="person-image-link" href="{{ member.link | escape }}" aria-label="Profile: {{ member.name | escape }}">{% else %}<div class="person-image">{% endif %}
-    <img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}" width="320" height="480" style="--portrait-scale: {{ member.image_scale | default: 1 | escape }}; --portrait-origin: {{ member.image_origin | default: '50% 50%' | escape }};" loading="lazy">
+    <img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}" width="300" height="400" style="--portrait-scale: {{ member.image_scale | default: 1 | escape }}; --portrait-position: {{ member.image_position | default: '50% 50%' | escape }}; --portrait-origin: {{ member.image_origin | default: '50% 50%' | escape }};" loading="lazy">
   {% if member.link %}</a>{% else %}</div>{% endif %}
   <div class="person-info">
     <p class="eyebrow">{{ member.role | escape }}</p>
