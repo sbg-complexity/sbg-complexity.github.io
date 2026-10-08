@@ -1,9 +1,9 @@
 current:
   - name: Patricia Palacios
-    role: Professor of Philosophy of Physics
+    role: Professor of Philosophy
     bio: >-
       Patricia Palacios is a professor of the group and a Professor of Philosophy
-      of Physics at the University of Salzburg. She works on emergence, reduction,
+      at the University of Salzburg. She works on emergence, reduction,
       idealizations in science, phase transitions, and the application of the
       physics of statistical mechanics to other disciplines, including biological
       sciences.
@@ -46,7 +46,7 @@ current:
     image_position: 50% 50%
     image_origin: 50% 50%
   - name: Rawad El Skaf
-    role: Humboldt Experienced Fellow · Postdoctoral Fellow
+    role: Postdoctoral Fellow
     bio: >-
       Rawad El Skaf is a philosopher of science working at the
       science–society–policy interface, with a focus on climate mitigation
@@ -75,7 +75,7 @@ current:
     image_position: 50% 72%
     image_origin: 50% 72%
   - name: Jiang Zhang
-    role: Research Assistant
+    role: Research Assistant and MA Student
     bio: >-
       Jiang Zhang is interested in the intersection of philosophy of mathematics,
       philosophy of physics, and mathematical foundations. His research focuses

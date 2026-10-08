@@ -47,4 +47,6 @@ The footer links to `/legal-notice/`, `/imprint/`, and `/data-policy/`. These pa
 
 The intended root-domain repository name is `sbg-placeholder-2026.github.io`. GitHub Pages organization-site naming depends on that repository name, so confirm the remote repository has this name before expecting the root URL. This draft has `noindex: true` and an internal-review disclaimer; replace all example content and confirm contact details before making it public.
 
+The workflow in `.github/workflows/pages.yml` builds and deploys the site with GitHub Actions. After merging it to the default branch, select **Settings → Pages → Build and deployment → Source → GitHub Actions** for the repository. The local `Gemfile.lock` is ignored because the site's dependencies must resolve on both Windows and GitHub's Linux runners.
+
 The site uses a system font stack, local portrait and sponsor images, semantic page landmarks, a skip link, visible keyboard focus, responsive layouts, and optional dark styling from the visitor's system preference. The footer contact, affiliation, sponsor marks, and legal links are shared across all pages.
