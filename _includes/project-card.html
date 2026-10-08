@@ -1,0 +1,15 @@
+<article class="project-card" id="{{ include.project.slug | escape }}">
+  <p class="eyebrow">{{ include.project.category | escape }}</p>
+  <h2>{{ include.project.title | escape }}</h2>
+  <p>{{ include.project.summary | escape }}</p>
+  <dl class="project-meta">
+    <div><dt>Keywords</dt><dd>{{ include.project.keywords | join: ', ' | escape }}</dd></div>
+    <div><dt>People</dt><dd>{{ include.project.people | join: ', ' | escape }}</dd></div>
+  </dl>
+  <div class="related-publications">
+    <h3>Related publications</h3>
+    {% if include.project.publications.size > 0 %}
+      <ul>{% for paper_id in include.project.publications %}{% assign paper = site.data.publications | where: 'id', paper_id | first %}{% if paper %}<li><a href="{{ '/publications/' | relative_url }}#{{ paper.id | escape }}">{{ paper.title | escape }}</a></li>{% endif %}{% endfor %}</ul>
+    {% else %}<p>Examples to be added.</p>{% endif %}
+  </div>
+</article>

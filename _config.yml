@@ -1,0 +1,26 @@
+title: Salzburg Complexity Group
+description: Research on adaptation and criticality in complex systems.
+tagline: Understanding how complex systems adapt, change, and reach their limits.
+intro: >-
+  The Salzburg Complexity Group studies the principles that shape complex
+  systems, from how they adapt to how they approach critical transitions.
+disclaimer: >-
+  This is a draft website for internal review. Names, projects, publications,
+  and events shown here are examples and do not describe actual group activity.
+contact_email: complexity.group@example.edu
+affiliation: DEPARTMENT of philosophy, UNIVERSITY OF SALZBURG
+noindex: true
+url: "https://sbg-placeholder-2026.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
