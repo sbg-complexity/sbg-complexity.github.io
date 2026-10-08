@@ -9,7 +9,7 @@ description: Current members of the Salzburg Complexity Group.
   <h2>Current members</h2>
   <div class="team-grid">
     {% for member in site.data.team.current %}
-      <article class="person-card">{% if member.link %}<a class="person-image-link" href="{{ member.link | escape }}" aria-label="Profile: {{ member.name | escape }}">{% else %}<div class="person-image">{% endif %}<img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}" width="320" height="320" loading="lazy">{% if member.link %}</a>{% else %}</div>{% endif %}<div class="person-info"><p class="eyebrow">{{ member.role | escape }}</p><h3>{% if member.link %}<a href="{{ member.link | escape }}">{{ member.name | escape }}</a>{% else %}{{ member.name | escape }}{% endif %}</h3><p>{{ member.interest | escape }}</p></div></article>
+      {% include person-card.html member=member %}
     {% endfor %}
   </div>
 </section>
@@ -18,7 +18,7 @@ description: Current members of the Salzburg Complexity Group.
   <h2>Alumni</h2>
   <div class="team-grid">
     {% for member in site.data.team.alumni %}
-      <article class="person-card">{% if member.link %}<a class="person-image-link" href="{{ member.link | escape }}" aria-label="Profile: {{ member.name | escape }}">{% else %}<div class="person-image">{% endif %}<img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}" width="320" height="320" loading="lazy">{% if member.link %}</a>{% else %}</div>{% endif %}<div class="person-info"><p class="eyebrow">{{ member.role | escape }}</p><h3>{% if member.link %}<a href="{{ member.link | escape }}">{{ member.name | escape }}</a>{% else %}{{ member.name | escape }}{% endif %}</h3><p>{{ member.interest | escape }}</p></div></article>
+      {% include person-card.html member=member %}
     {% endfor %}
   </div>
 </section>
