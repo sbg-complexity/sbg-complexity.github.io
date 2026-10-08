@@ -1,9 +1,9 @@
 - slug: macbeh
-  name: MacBeh
+  name: MACBeh
   logo: /assets/img/research-groups/macbeh.png
-  logo_alt: MacBeh wordmark
+  logo_alt: MACBeh wordmark
   url: https://www.macbeh.com/
-  description: Patricia Palacios is the Principal Investigator of MacBeh.
+  description: Patricia Palacios is the Principal Investigator of MACBeh.
   projects: [adaptive-systems, critical-transitions]
 - slug: knowledge-in-crisis
   name: Knowledge in Crisis
