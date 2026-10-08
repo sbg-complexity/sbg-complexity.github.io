@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait illustration</title>
+  <desc id="desc">A simple abstract person silhouette against a muted green background.</desc>
+  <rect width="640" height="480" fill="#e4ebe3"/>
+  <circle cx="320" cy="190" r="85" fill="#a9bbaa"/>
+  <path d="M150 480c12-116 78-177 170-177s158 61 170 177" fill="#557863"/>
+  <path d="M0 410c95-62 167-48 246-4 86 48 151 49 235 0 58-34 103-46 159-34v108H0z" fill="#d3dfd2" opacity=".7"/>
+</svg>

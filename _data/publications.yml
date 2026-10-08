@@ -1,0 +1,18 @@
+- id: example-adaptation-2025
+  authors: [Example Person, Example Researcher]
+  title: Example paper on adaptation in complex models
+  venue: Journal of Example Research
+  year: 2025
+  doi: 10.0000/example.2025.001
+  arxiv: 2501.01234
+- id: example-criticality-2024
+  authors: [Example Researcher, Example Collaborator]
+  title: Example paper on critical transitions
+  venue: Proceedings of the Example Society
+  year: 2024
+  doi: 10.0000/example.2024.002
+- id: example-measures-2023
+  authors: [Example Collaborator]
+  title: Example paper on measuring complexity
+  venue: Example Methods Review
+  year: 2023

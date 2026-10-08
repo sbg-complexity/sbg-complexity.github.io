@@ -1,0 +1,27 @@
+- slug: adaptive-systems
+  title: Learning and adaptation in complex systems
+  category: Model Adaptation
+  summary: >-
+    Example project exploring how models and systems revise their behaviour
+    when conditions shift, and how adaptation can be measured.
+  keywords: [adaptation, learning, model comparison]
+  people: [Example Person]
+  publications: [example-adaptation-2025]
+- slug: critical-transitions
+  title: Signals of critical transitions
+  category: Criticality
+  summary: >-
+    Example project studying how changes in interaction and feedback can move
+    a system toward a critical transition.
+  keywords: [criticality, phase transitions, complex systems]
+  people: [Example Researcher]
+  publications: [example-criticality-2024]
+- slug: measurement-frameworks
+  title: Measuring complexity across scales
+  category: Methods
+  summary: >-
+    Example project comparing practical measures of complexity across models
+    operating at different scales.
+  keywords: [measurement, scale, methods]
+  people: [Example Collaborator]
+  publications: [example-measures-2023]

@@ -1,0 +1,20 @@
+current:
+  - name: Example Person
+    role: Group lead · Placeholder
+    interest: How adaptive models respond to changing environments.
+    image: /assets/img/person-placeholder.svg
+    image_alt: Neutral illustrated placeholder portrait
+    link: mailto:complexity.group@example.edu
+  - name: Example Researcher
+    role: Research fellow · Placeholder
+    interest: Early indicators of critical transitions in complex systems.
+    image: /assets/img/person-placeholder.svg
+    image_alt: Neutral illustrated placeholder portrait
+    link: mailto:complexity.group@example.edu
+alumni:
+  - name: Example Alumna
+    role: Former visiting researcher · Placeholder
+    interest: The dynamics of learning in networked systems.
+    image: /assets/img/person-placeholder.svg
+    image_alt: Neutral illustrated placeholder portrait
+    link: mailto:complexity.group@example.edu
