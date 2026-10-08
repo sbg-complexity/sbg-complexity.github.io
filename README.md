@@ -45,7 +45,7 @@ The footer links to `/imprint/` and `/data-policy/`. The Contact page includes a
 
 ## Hosting and launch notes
 
-The intended root-domain repository name is `sbg-placeholder-2026.github.io`. GitHub Pages organization-site naming depends on that repository name, so confirm the remote repository has this name before expecting the root URL. This draft has `noindex: true` and an internal-review disclaimer; replace all example content and confirm contact details before making it public.
+The root-domain repository is `sbg-complexity.github.io`, owned by the `sbg-complexity` organization. GitHub Pages organization-site naming depends on these matching names. This draft has `noindex: true` and an internal-review disclaimer; replace all example content and confirm contact details before making it public.
 
 The workflow in `.github/workflows/pages.yml` builds and deploys the site with GitHub Actions. After merging it to the default branch, select **Settings → Pages → Build and deployment → Source → GitHub Actions** for the repository. The local `Gemfile.lock` is ignored because the site's dependencies must resolve on both Windows and GitHub's Linux runners.
 
