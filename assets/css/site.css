@@ -22,11 +22,11 @@ img { max-width: 100%; }
 .wrap { width: min(1120px, calc(100% - 3rem)); margin-inline: auto; }
 .skip-link { position: absolute; z-index: 10; top: .75rem; left: .75rem; padding: .6rem 1rem; transform: translateY(-160%); background: var(--ink); color: white; }
 .skip-link:focus { transform: translateY(0); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; clip-path: inset(50%); }
 .site-header { border-bottom: 1px solid var(--line); background: var(--surface); }
 .header-inner { width: min(1280px, calc(100% - 3rem)); min-height: 82px; margin: auto; display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
 .wordmark { display: flex; align-items: center; gap: .8rem; text-decoration: none; color: var(--ink); }
-.wordmark-mark { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid var(--green); color: var(--green-dark); font-family: Georgia, serif; font-size: 1.12rem; letter-spacing: -.12em; }
-.wordmark-mark span, .hero-center span { color: var(--gold); }
+.wordmark-mark { display: block; width: 48px; height: 48px; flex: 0 0 auto; }
 .wordmark-text { max-width: 160px; font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; font-weight: 600; line-height: 1.15; }
 .site-nav ul { display: flex; align-items: center; gap: clamp(.8rem, 2vw, 2rem); margin: 0; padding: 0; list-style: none; }
 .site-nav a { display: inline-block; padding: .6rem 0; color: var(--muted); font-size: .91rem; text-decoration: none; }
@@ -45,7 +45,7 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .hero-art { position: relative; aspect-ratio: 1; width: min(100%, 430px); justify-self: end; border-radius: 50%; background: radial-gradient(circle at center, rgba(216, 226, 216, .92), rgba(232, 236, 225, .4) 55%, rgba(245, 244, 239, 0) 72%); }
 .orbit { position: absolute; top: 50%; left: 50%; border: 1px solid rgba(36, 93, 74, .32); border-radius: 50%; transform: translate(-50%, -50%) rotate(-28deg); }
 .orbit-one { width: 87%; height: 37%; }.orbit-two { width: 75%; height: 60%; transform: translate(-50%, -50%) rotate(52deg); }.orbit-three { width: 57%; height: 83%; transform: translate(-50%, -50%) rotate(22deg); }
-.hero-center { position: absolute; top: 50%; left: 50%; display: grid; place-items: center; width: 82px; height: 82px; border-radius: 50%; background: var(--green-dark); color: white; font-family: Georgia, serif; font-size: 1.5rem; letter-spacing: -.12em; transform: translate(-50%, -50%); box-shadow: var(--shadow); }
+.hero-center { position: absolute; top: 50%; left: 50%; width: 82px; height: 82px; transform: translate(-50%, -50%); filter: drop-shadow(var(--shadow)); }
 .node { position: absolute; z-index: 1; width: 14px; height: 14px; border: 3px solid var(--paper); border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 1px rgba(125, 87, 40, .35); }
 .node-one { top: 22%; left: 28%; }.node-two { top: 31%; right: 16%; }.node-three { right: 19%; bottom: 23%; }.node-four { bottom: 16%; left: 34%; }.node-five { top: 49%; left: 9%; }
 .keyword-band { background: var(--soft-green); border-block: 1px solid var(--line); }
@@ -74,8 +74,13 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .page-hero h1 { margin-bottom: .8rem; font-size: clamp(3rem, 7vw, 4.5rem); }
 .page-hero > p:last-child { max-width: 660px; margin: 0; color: var(--muted); font-size: 1.12rem; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; padding-top: 1rem; }
+.research-group + .research-group { padding-top: 1rem; }
+.research-group-heading { display: flex; align-items: center; gap: 1.25rem; min-height: 112px; margin-bottom: 1.5rem; padding: 1rem 1.5rem; border-block: 1px solid var(--line); }
+.research-group-heading img { display: block; width: auto; max-width: min(220px, 42vw); height: 88px; object-fit: contain; }
+.research-group-heading img[src*="knowledge-in-crisis"] { width: min(360px, 70vw); max-width: min(360px, 70vw); height: auto; max-height: 88px; }
+.research-group-description { max-width: 850px; margin: 0 0 1.5rem; color: var(--muted); }
 .project-card { scroll-margin-top: 1rem; padding: 2rem; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 7px 24px rgba(31, 50, 43, .035); }
-.project-card h2 { margin: 0 0 .8rem; font-size: 1.75rem; }
+.project-card h3 { margin: 0 0 .8rem; font-size: 1.75rem; }
 .project-card > p:not(.eyebrow) { color: var(--muted); }
 .project-meta { display: grid; gap: .75rem; margin: 1.5rem 0; }
 .project-meta div { display: grid; grid-template-columns: 90px 1fr; gap: .8rem; }

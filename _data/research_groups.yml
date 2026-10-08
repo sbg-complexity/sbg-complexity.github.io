@@ -1,0 +1,12 @@
+- slug: macbeh
+  name: MacBeh
+  logo: /assets/img/research-groups/macbeh.png
+  logo_alt: MacBeh wordmark
+  description: Patricia Palacios is the Principal Investigator of MacBeh.
+  projects: [adaptive-systems, critical-transitions]
+- slug: knowledge-in-crisis
+  name: Knowledge in Crisis
+  logo: /assets/img/research-groups/knowledge-in-crisis.svg
+  logo_alt: Knowledge in Crisis wordmark
+  description: Patricia Palacios is a key researcher in the Knowledge in Crisis Cluster of Excellence; Rawad El Skaf is a Fellow of the Cluster.
+  projects: []

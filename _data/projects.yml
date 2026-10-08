@@ -1,4 +1,5 @@
 - slug: adaptive-systems
+  group: macbeh
   title: Learning and adaptation in complex systems
   category: Model Adaptation
   summary: >-
@@ -8,6 +9,7 @@
   people: [Example Person]
   publications: [example-adaptation-2025]
 - slug: critical-transitions
+  group: macbeh
   title: Signals of critical transitions
   category: Criticality
   summary: >-
@@ -16,12 +18,3 @@
   keywords: [criticality, phase transitions, complex systems]
   people: [Example Researcher]
   publications: [example-criticality-2024]
-- slug: measurement-frameworks
-  title: Measuring complexity across scales
-  category: Methods
-  summary: >-
-    Example project comparing practical measures of complexity across models
-    operating at different scales.
-  keywords: [measurement, scale, methods]
-  people: [Example Collaborator]
-  publications: [example-measures-2023]
