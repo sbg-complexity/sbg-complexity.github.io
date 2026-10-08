@@ -1,6 +1,6 @@
 <article class="project-card" id="{{ include.project.slug | escape }}">
   <p class="eyebrow">{{ include.project.category | escape }}</p>
-  <h2>{{ include.project.title | escape }}</h2>
+  <h3>{{ include.project.title | escape }}</h3>
   <p>{{ include.project.summary | escape }}</p>
   <dl class="project-meta">
     <div><dt>Keywords</dt><dd>{{ include.project.keywords | join: ', ' | escape }}</dd></div>

@@ -14,7 +14,7 @@ description: The Salzburg Complexity Group researches model adaptation and criti
   <div class="hero-art" role="img" aria-label="Abstract lines and nodes suggesting an interconnected research network">
     <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span>
     <span class="node node-one"></span><span class="node node-two"></span><span class="node node-three"></span>
-    <span class="node node-four"></span><span class="node node-five"></span><span class="hero-center">S<span>·</span>C</span>
+    <span class="node node-four"></span><span class="node node-five"></span><img class="hero-center" src="{{ '/assets/img/scg-logo.png' | relative_url }}" alt="">
   </div>
 </section>
 
