@@ -2,7 +2,7 @@
 layout: default
 title: Team
 permalink: /team/
-description: Current members of the Salzburg Complexity Group.
+description: Current members, visitors, and alumni of the Salzburg Complexity Group.
 ---
 <header class="page-hero wrap"><p class="eyebrow">People &amp; perspectives</p><h1>Team</h1><p>Meet the researchers and scholars in the group.</p></header>
 <section class="section wrap team-section">
@@ -13,6 +13,16 @@ description: Current members of the Salzburg Complexity Group.
     {% endfor %}
   </div>
 </section>
+{% if site.data.team.visitors and site.data.team.visitors.size > 0 %}
+<section class="section wrap team-section visitors-section">
+  <h2>Visitors</h2>
+  <div class="team-grid">
+    {% for member in site.data.team.visitors %}
+      {% include person-card.html member=member %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 {% if site.data.team.alumni and site.data.team.alumni.size > 0 %}
 <section class="section wrap team-section alumni-section">
   <h2>Alumni</h2>

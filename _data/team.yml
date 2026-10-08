@@ -85,4 +85,15 @@ current:
     image_alt: Portrait of Jiang Zhang
     image_scale: 1.2
     image_origin: 50% 58%
-alumni: []
+visitors:
+  - name: Example Visitor
+    role: Visiting Researcher · Placeholder
+    bio: Placeholder profile for a group visitor. Replace this text with a brief biography and research interests.
+    image: /assets/img/person-placeholder.svg
+    image_alt: Neutral illustrated placeholder portrait
+alumni:
+  - name: Example Alum
+    role: Former Group Member · Placeholder
+    bio: Placeholder profile for an alumnus. Replace this text with a brief biography and current affiliation.
+    image: /assets/img/person-placeholder.svg
+    image_alt: Neutral illustrated placeholder portrait
