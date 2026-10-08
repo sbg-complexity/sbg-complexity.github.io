@@ -8,7 +8,9 @@ description: Research projects at the Salzburg Complexity Group.
 {% for group in site.data.research_groups %}
 <section class="section wrap research-group" aria-labelledby="{{ group.slug | escape }}-heading">
   <header class="research-group-heading">
-    <img src="{{ group.logo | relative_url }}" alt="{{ group.logo_alt | escape }}" loading="lazy">
+    <a class="research-group-logo" href="{{ group.url | escape }}" aria-label="{{ group.name | escape }} website">
+      <img src="{{ group.logo | relative_url }}" alt="{{ group.logo_alt | escape }}" loading="lazy">
+    </a>
     <h2 id="{{ group.slug | escape }}-heading" class="visually-hidden">{{ group.name | escape }}</h2>
   </header>
   {% if group.description %}<p class="research-group-description">{{ group.description | escape }}</p>{% endif %}
