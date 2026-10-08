@@ -1,20 +1,105 @@
 current:
-  - name: Example Person
-    role: Group lead · Placeholder
-    interest: How adaptive models respond to changing environments.
+  - name: Patricia Palacios
+    role: Professor of Philosophy of Physics
+    bio: >-
+      Patricia Palacios is a professor of the group and a Professor of Philosophy
+      of Physics at the University of Salzburg. She works on emergence, reduction,
+      idealizations in science, phase transitions, and the application of the
+      physics of statistical mechanics to other disciplines, including biological
+      sciences.
+    image: /assets/img/profiles/patricia.avif
+    image_alt: Portrait of Patricia Palacios
+    image_scale: 1.0
+    image_position: 50% 55%
+    image_origin: 50% 55%
+    link: https://patriciapalacios.blog/
+  - name: Jessica Lauman-Lairson
+    role: Postdoctoral Fellow
+    bio: >-
+      Jessica's research explores the use of analogical inference and template
+      transfer in scientific practice. Her current research focuses on developing
+      a pluralistic, pragmatic normative account of analogical inference, arguing
+      that while relevant similarity cannot be captured by formal schema,
+      normativity can be preserved through context-sensitive tools that guide
+      inference under uncertainty. She also researches how cognitive biases
+      present in scientific reasoning.
+    image: /assets/img/profiles/jessica.jpg
+    image_alt: Portrait of Jessica Lauman-Lairson
+    image_scale: 1.0
+    image_position: 50% 50%
+    image_origin: 50% 50%
+  - name: Pascal Rodriguez Warnier
+    role: Postdoctoral Fellow
+    bio: >-
+      My research focuses on the philosophy of physics and the general philosophy
+      of science. I am particularly absorbed by how scientific theories are
+      adapted and qualified when applied beyond their original domain, and by the
+      ways in which different theories collaborate to account for complex
+      phenomena. Currently, my work centres on the foundations of thermal
+      physics - including statistical mechanics and quantum thermodynamics - as well
+      as the thermodynamics of information. Additionally, I explore the
+      foundations of spacetime theories, the history of scientific concepts, and
+      the relationship between agency and physics.
+    image: /assets/img/profiles/pascal.JPG
+    image_alt: Portrait of Pascal Rodriguez Warnier
+    image_scale: 1.0
+    image_position: 50% 50%
+    image_origin: 50% 50%
+  - name: Rawad El Skaf
+    role: Humboldt Experienced Fellow · Postdoctoral Fellow
+    bio: >-
+      Rawad El Skaf is a philosopher of science working at the
+      science–society–policy interface, with a focus on climate mitigation
+      scenarios and the IPCC's mandate to be policy-relevant yet policy-neutral.
+      Drawing on feminist, decolonial, and Marxist theory, he critiques
+      value-deference and argues for an explicitly partisan science, especially
+      when societal stakes are high. He is currently a Humboldt Experienced
+      Fellow at Leibniz University Hannover and a Postdoctoral Fellow at the FWF
+      Cluster of Excellence “Knowledge in Crisis” at the University of Salzburg.
+    image: /assets/img/profiles/rawad.jpg
+    image_alt: Portrait of Rawad El Skaf
+    image_scale: 1.25
+    image_position: 50% 55%
+    image_origin: 50% 55%
+    link: https://sites.google.com/view/rawadelskaf/
+  - name: Helen Mocanu
+    role: PhD Student
+    bio: >-
+      My name is Helen Mocanu. I am primarily interested in imprecise
+      probabilities and their potential relationship to social epistemology. I
+      am also interested in certain topics in decision theory, like proper
+      scoring rules and modeling uncertainty and ambiguity.
+    image: /assets/img/profiles/helen.jpg
+    image_alt: Portrait of Helen Mocanu
+    image_scale: 1.45
+    image_position: 50% 72%
+    image_origin: 50% 72%
+  - name: Jiang Zhang
+    role: Research Assistant
+    bio: >-
+      Jiang Zhang is interested in the intersection of philosophy of mathematics,
+      philosophy of physics, and mathematical foundations. His research focuses
+      on structure, invariance, emergence, and the architecture of theories,
+      especially how mathematical and physical structures are preserved,
+      transformed, or made intelligible across different levels and frameworks.
+      He brings a mixed academic background in computer science, mathematics,
+      and philosophy, developed through his studies at the National University
+      of Singapore. He is especially interested in bringing formal tools to
+      bear on philosophical questions about mathematics and physics.
+    image: /assets/img/profiles/jiang.jpg
+    image_alt: Portrait of Jiang Zhang
+    image_scale: 1.2
+    image_position: 50% 58%
+    image_origin: 50% 58%
+visitors:
+  - name: Example Visitor
+    role: Visiting Researcher · Placeholder
+    bio: Placeholder profile for a group visitor. Replace this text with a brief biography and research interests.
     image: /assets/img/person-placeholder.svg
     image_alt: Neutral illustrated placeholder portrait
-    link: mailto:complexity.group@example.edu
-  - name: Example Researcher
-    role: Research fellow · Placeholder
-    interest: Early indicators of critical transitions in complex systems.
-    image: /assets/img/person-placeholder.svg
-    image_alt: Neutral illustrated placeholder portrait
-    link: mailto:complexity.group@example.edu
 alumni:
-  - name: Example Alumna
-    role: Former visiting researcher · Placeholder
-    interest: The dynamics of learning in networked systems.
+  - name: Example Alum
+    role: Former Group Member · Placeholder
+    bio: Placeholder profile for an alumnus. Replace this text with a brief biography and current affiliation.
     image: /assets/img/person-placeholder.svg
     image_alt: Neutral illustrated placeholder portrait
-    link: mailto:complexity.group@example.edu

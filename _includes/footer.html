@@ -8,8 +8,7 @@
       <a href="mailto:{{ site.contact_email | escape }}">{{ site.contact_email | escape }}</a>
       <p class="draft-note">{{ site.disclaimer | escape }}</p>
     </div>
-    <section class="footer-sponsors" aria-labelledby="sponsor-heading">
-      <h2 id="sponsor-heading" class="eyebrow">Sponsors and institutional partners</h2>
+    <section class="footer-sponsors" aria-label="Institutional logos">
       <ul class="sponsor-list">
         {% for sponsor in site.data.sponsors %}
           <li class="sponsor-{{ sponsor.class | escape }}"><a href="{{ sponsor.url | escape }}" aria-label="{{ sponsor.name | escape }}"><img src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.image_alt | escape }}" loading="lazy"></a></li>
@@ -17,9 +16,9 @@
       </ul>
     </section>
     <nav class="footer-legal" aria-label="Legal information">
-      <a href="{{ '/legal-notice/' | relative_url }}">Legal notice</a>
+      <a href="{{ '/legal-notice/' | relative_url }}">Legal Notice</a>
       <a href="{{ '/imprint/' | relative_url }}">Imprint</a>
-      <a href="{{ '/data-policy/' | relative_url }}">Data policy</a>
+      <a href="{{ '/data-policy/' | relative_url }}">Data Policy</a>
     </nav>
   </div>
 </footer>
