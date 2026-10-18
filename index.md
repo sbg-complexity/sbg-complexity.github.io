@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: The Salzburg Complexity Group researches model adaptation and criticality.
+description: The Salzburg Complexity Group studies how scientific models are transferred and adapted across disciplines to investigate complex systems and critical behavior.
 ---
 <section class="hero wrap">
   <div class="hero-copy">
@@ -19,7 +19,7 @@ description: The Salzburg Complexity Group researches model adaptation and criti
 </section>
 
 <section class="keyword-band" aria-label="Research themes">
-  <div class="wrap keyword-inner"><span class="eyebrow">Research themes</span><ul><li>Model Adaptation</li><li>Criticality</li><li>Complex Systems</li><li>Philosophy of Science</li></ul></div>
+  <div class="wrap keyword-inner"><span class="eyebrow">Research themes</span><ul><li>Model Adaptation</li><li>Criticality</li><li>Complex Systems</li><li>Philosophy of Science</li><li>Philosophy of Physics</li></ul></div>
 </section>
 
 <section class="section wrap news-section">
