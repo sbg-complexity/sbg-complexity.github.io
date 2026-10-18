@@ -1,0 +1,12 @@
+{% if include.item.sources %}
+  <ul class="news-sources" aria-label="Related announcements">
+    {% for source in include.item.sources %}
+      <li>
+        <a href="{{ source.url | escape }}">{{ source.label | escape }}</a>
+        <span>{{ source.description | escape }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% elsif include.item.related_url %}
+  <a class="news-source-link" href="{{ include.item.related_url | escape }}">{{ include.item.related_label | default: 'Related source' | escape }}</a>
+{% endif %}

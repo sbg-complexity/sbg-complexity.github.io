@@ -112,15 +112,20 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .related-publications li + li { margin-top: .35rem; }
 .project-site-link { display: inline-flex; align-items: center; gap: .5rem; align-self: flex-start; margin-top: auto; padding-top: 1.4rem; font-size: .92rem; font-weight: 650; }
 .publication-years { padding-top: 1rem; }
-.year-group { display: grid; grid-template-columns: 105px 1fr; gap: 1.5rem; margin-bottom: 3.25rem; }
-.year-group > h2 { margin: .15rem 0; color: var(--green-dark); font-size: 1.65rem; }
-.publication-entry { padding: 0 0 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
-.publication-entry:last-child { margin-bottom: 0; }
+.year-group { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 1.75rem; margin-bottom: 2rem; align-items: start; }
+.year-group > h2 { margin: .15rem 0; color: var(--green-dark); font-size: 1.35rem; }
+.year-group > div { display: grid; gap: 1rem; min-width: 0; }
+.publication-entry { padding: 1.35rem 1.5rem; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 3px; }
 .publication-authors { margin: 0 0 .25rem; color: var(--muted); font-size: .88rem; }
 .publication-entry h3 { margin: 0; font-size: 1.35rem; }
 .publication-venue { margin: .4rem 0 .7rem; color: var(--muted); font-size: .92rem; }
+.publication-summary { max-width: 72ch; margin: 0 0 1rem; color: var(--muted); line-height: 1.65; }
 .action-links { display: flex; flex-wrap: wrap; gap: 1rem; }
 .action-links .text-link { font-size: .85rem; }
+.news-sources { display: grid; gap: .55rem; margin: .8rem 0 0; padding: .75rem 0 0; border-top: 1px solid var(--line); list-style: none; }
+.news-sources li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .6rem; font-size: .86rem; }
+.news-sources a { font-weight: 650; }
+.news-sources span { color: var(--muted); }
 .team-section { padding-top: 2rem; }
 .team-section > h2 { padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
 .team-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; padding-top: 1.5rem; }
@@ -220,7 +225,8 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
   .page-hero { padding-block: 3.5rem 2rem; }
   .contact-section { grid-template-columns: 1fr; gap: 1rem; }
   .project-grid { grid-template-columns: 1fr; }.event-card time.date-range strong { font-size: 1.5rem; }
-  .year-group { grid-template-columns: 1fr; gap: 1rem; }
+  .year-group { grid-template-columns: 1fr; gap: .65rem; }
+  .publication-entry { padding: 1.15rem; }
   .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
   .person-info { padding: .9rem; }
   .person-info h3 { font-size: 1.2rem; }

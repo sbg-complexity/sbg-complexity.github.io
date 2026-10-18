@@ -29,7 +29,7 @@ description: The Salzburg Complexity Group researches model adaptation and criti
     {% for item in latest_news limit: 4 %}
       <article class="news-item">
         <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time>
-        <div><h3><a href="{% if item.url contains '://' %}{{ item.url | escape }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title | escape }}</a></h3><p>{{ item.summary | escape }}</p>{% if item.related_url %}<a class="news-source-link" href="{{ item.related_url | escape }}">{{ item.related_label | default: 'Related source' | escape }}</a>{% endif %}</div>
+        <div><h3><a href="{% if item.url contains '://' %}{{ item.url | escape }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title | escape }}</a></h3><p>{{ item.summary | escape }}</p>{% include news-sources.html item=item %}</div>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </article>
     {% endfor %}

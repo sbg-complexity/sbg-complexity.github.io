@@ -1,10 +1,9 @@
 - date: 2026-10-16
-  title: Patricia Palacios appointed professor of philosophy of physics
+  title: Congratulations to our group leader Patricia Palacios on her professorship
   summary: >-
-    Patricia Palacios was appointed University Professor of Philosophy of Science:
-    Philosophy of Physics at the University of Salzburg from October 2026. The
-    appointment took effect on October 1; the University and MACBeh announcements
-    describe the same appointment.
+    Our group leader Patricia Palacios has been appointed University Professor of
+    Philosophy of Science: Philosophy of Physics at the University of Salzburg,
+    effective October 1, 2026.
   url: https://www.plus.ac.at/news/neue-professorin-fuer-wissenschaftstheorie-philosophie-der-physik/
   related_url: https://www.macbeh.com/news-1
   related_label: MACBeh announcement
@@ -17,10 +16,13 @@
   summary: The University of Salzburg's video titled Philosophin erforscht Ordnung features the ERC-funded MACBeh project. English subtitles are available.
   url: https://vimeo.com/1154980054
 - date: 2025-09-04
-  title: MACBeh announced by the University of Salzburg
+  title: MACBeh receives an ERC Starting Grant
   summary: The University of Salzburg reports on Patricia Palacios's ERC Starting Grant and MACBeh's research into how models from physics are adapted to biological and social systems.
   url: https://www.plus.ac.at/news/erc-starting-grant-fuer-patricia-palacios-von-der-universitaet-salzburg-physikalische-prinzipien-im-kontext-kollektiven-verhaltens/
-- date: 2025-09-04
-  title: ERC 2025 Starting Grant results
-  summary: The ERC announced 478 Starting Grants for 2025. Patricia Palacios's MACBeh project is among the selected projects.
-  url: https://erc.europa.eu/news-events/news/erc-2025-starting-grants-results
+  sources:
+    - label: University of Salzburg announcement
+      description: Project overview and the research questions behind MACBeh.
+      url: https://www.plus.ac.at/news/erc-starting-grant-fuer-patricia-palacios-von-der-universitaet-salzburg-physikalische-prinzipien-im-kontext-kollektiven-verhaltens/
+    - label: European Research Council announcement
+      description: The 2025 Starting Grant results, including Patricia Palacios's MACBeh project.
+      url: https://erc.europa.eu/news-events/news/erc-2025-starting-grants-results
