@@ -1,5 +1,6 @@
 - slug: macbeh
   name: MACBeh
+  primary: true
   category: ERC Starting Grant project
   logo: /assets/img/research-groups/macbeh.png
   logo_alt: MACBeh wordmark
