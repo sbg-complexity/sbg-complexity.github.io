@@ -1,18 +1,22 @@
-- id: example-adaptation-2025
-  authors: [Example Person, Example Researcher]
-  title: Example paper on adaptation in complex models
-  venue: Journal of Example Research
-  year: 2025
-  doi: 10.0000/example.2025.001
-  arxiv: 2501.01234
-- id: example-criticality-2024
-  authors: [Example Researcher, Example Collaborator]
-  title: Example paper on critical transitions
-  venue: Proceedings of the Example Society
-  year: 2024
-  doi: 10.0000/example.2024.002
-- id: example-measures-2023
-  authors: [Example Collaborator]
-  title: Example paper on measuring complexity
-  venue: Example Methods Review
-  year: 2023
+- id: philosophy-of-biophysics
+  authors: [Margarida Hermida, Patricia Palacios]
+  title: Philosophy of Biophysics
+  venue: Cambridge Element, under contract with Cambridge University Press
+  status: forthcoming
+  summary: >-
+    This Element examines biophysics at the intersection of physics and biology,
+    arguing that physical research can illuminate molecular and cellular
+    mechanisms and deepen understanding of life and the individual and collective
+    behavior of living organisms.
+  url: https://www.macbeh.com/publications
+- id: idealizations-in-physics
+  authors: [Patricia Palacios]
+  title: Idealizations in Physics
+  venue: Chapter in Comprehensive Philosophy of Science, edited by Sven Ove Hansson and Alistair Wilson, Elsevier
+  status: forthcoming
+  summary: >-
+    The chapter distinguishes forms of idealization in physics and the different
+    epistemic roles they play. It examines how idealizations connect to debates
+    about reductionism and scientific realism, including their role in models of
+    criticality.
+  url: https://www.macbeh.com/publications

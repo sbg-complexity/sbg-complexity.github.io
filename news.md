@@ -12,7 +12,7 @@ description: News and updates from the Salzburg Complexity Group.
     {% for item in all_news %}
       <article class="news-item">
         <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time>
-        <div><h2><a href="{% if item.url contains '://' %}{{ item.url | escape }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title | escape }}</a></h2><p>{{ item.summary | escape }}</p></div>
+        <div><h2><a href="{% if item.url contains '://' %}{{ item.url | escape }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title | escape }}</a></h2><p>{{ item.summary | escape }}</p>{% if item.related_url %}<a class="news-source-link" href="{{ item.related_url | escape }}">{{ item.related_label | default: 'Related source' | escape }}</a>{% endif %}</div>
         <span class="news-arrow" aria-hidden="true">→</span>
       </article>
     {% else %}

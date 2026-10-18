@@ -1,20 +1,31 @@
-- slug: adaptive-systems
-  group: macbeh
-  title: Learning and adaptation in complex systems
-  category: Model Adaptation
+- slug: macbeh
+  name: MACBeh
+  category: ERC Starting Grant project
+  logo: /assets/img/research-groups/macbeh.png
+  logo_alt: MACBeh wordmark
+  url: https://www.macbeh.com/
   summary: >-
-    Example project exploring how models and systems revise their behaviour
-    when conditions shift, and how adaptation can be measured.
-  keywords: [adaptation, learning, model comparison]
-  people: [Example Person]
-  publications: [example-adaptation-2025]
-- slug: critical-transitions
-  group: macbeh
-  title: Signals of critical transitions
-  category: Criticality
+    MACBeh (Model Adaptation in the Study of Critical Behavior) investigates how
+    and why models from physics are adapted to explain critical behavior in
+    biological and social systems. The project studies what makes such transfers
+    successful and how models change when used in new disciplinary contexts.
+  involvement: >-
+    The Salzburg Complexity Group's work engages the project's central themes of
+    model adaptation and critical behavior.
+  publications: [philosophy-of-biophysics, idealizations-in-physics]
+- slug: knowledge-in-crisis
+  name: Knowledge in Crisis
+  category: FWF Cluster of Excellence
+  logo: /assets/img/research-groups/knowledge-in-crisis.svg
+  logo_alt: Knowledge in Crisis wordmark
+  url: https://www.knowledgeincrisis.com/
   summary: >-
-    Example project studying how changes in interaction and feedback can move
-    a system toward a critical transition.
-  keywords: [criticality, phase transitions, complex systems]
-  people: [Example Researcher]
-  publications: [example-criticality-2024]
+    Knowledge in Crisis brings together more than 50 philosophers across the
+    Central European University and the universities of Salzburg, Graz, and
+    Vienna to study contemporary crises of knowledge, truth, and expertise.
+    The Cluster also aims to strengthen philosophical research and communicate
+    its findings beyond the university.
+  involvement: >-
+    Patricia Palacios works on questions of universality. Rawad El Skaf is a
+    Fellow of the Cluster.
+  publications: []

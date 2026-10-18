@@ -12,15 +12,13 @@ description: Events, seminars, and outreach from the Salzburg Complexity Group.
   <div class="event-list">
     {% assign upcoming_count = 0 %}
     {% for event in sorted_events %}
-      {% assign event_seconds = event.date | date: '%s' | plus: 0 %}
+      {% assign event_end_date = event.end_date | default: event.date %}
+      {% assign event_end_seconds = event_end_date | date: '%s' | plus: 0 %}
       {% assign show_upcoming = false %}
       {% if event.recurrence %}
         {% assign show_upcoming = true %}
-        {% if event.end_date %}
-          {% assign end_seconds = event.end_date | date: '%s' | plus: 0 %}
-          {% if end_seconds < build_seconds %}{% assign show_upcoming = false %}{% endif %}
-        {% endif %}
-      {% elsif event_seconds >= build_seconds %}
+        {% if event.end_date and event_end_seconds < build_seconds %}{% assign show_upcoming = false %}{% endif %}
+      {% elsif event_end_seconds >= build_seconds %}
         {% assign show_upcoming = true %}
       {% endif %}
       {% if show_upcoming %}
@@ -29,7 +27,7 @@ description: Events, seminars, and outreach from the Salzburg Complexity Group.
           {% if event.recurrence == 'weekly' %}
             <div class="event-schedule" aria-label="Every Tuesday, {{ event.time | escape }}"><span>Weekly</span><strong>Tuesday</strong><span>{{ event.time | escape }}</span></div>
           {% else %}
-            <time datetime="{{ event.date | date: '%Y-%m-%d' }}"><span>{{ event.date | date: '%b' }}</span><strong>{{ event.date | date: '%d' }}</strong><span>{{ event.date | date: '%Y' }}</span></time>
+            <time class="{% if event.end_date %}date-range{% endif %}" datetime="{{ event.date | date: '%Y-%m-%d' }}" aria-label="{{ event.date | date: '%B %d, %Y' }}{% if event.end_date %} to {{ event.end_date | date: '%B %d, %Y' }}{% endif %}"><span>{{ event.date | date: '%b' }}</span><strong>{{ event.date | date: '%d' }}{% if event.end_date %}-{{ event.end_date | date: '%d' }}{% endif %}</strong><span>{{ event.date | date: '%Y' }}</span></time>
           {% endif %}
           <div><h3>{{ event.title | escape }}</h3><p class="event-place">{{ event.place | escape }}</p><p>{{ event.description | escape }}</p>{% if event.link %}{% if event.link contains '://' %}<a class="text-link" href="{{ event.link | escape }}">{% else %}<a class="text-link" href="{{ event.link | relative_url }}">{% endif %}{{ event.link_label | default: 'More information' | escape }} <span aria-hidden="true">&#8599;</span></a>{% endif %}</div>
         </article>
@@ -44,14 +42,12 @@ description: Events, seminars, and outreach from the Salzburg Complexity Group.
     {% assign past_count = 0 %}
     {% assign reverse_events = sorted_events | reverse %}
     {% for event in reverse_events %}
-      {% assign event_seconds = event.date | date: '%s' | plus: 0 %}
+      {% assign event_end_date = event.end_date | default: event.date %}
+      {% assign event_end_seconds = event_end_date | date: '%s' | plus: 0 %}
       {% assign show_past = false %}
       {% if event.recurrence %}
-        {% if event.end_date %}
-          {% assign end_seconds = event.end_date | date: '%s' | plus: 0 %}
-          {% if end_seconds < build_seconds %}{% assign show_past = true %}{% endif %}
-        {% endif %}
-      {% elsif event_seconds < build_seconds %}
+        {% if event.end_date and event_end_seconds < build_seconds %}{% assign show_past = true %}{% endif %}
+      {% elsif event_end_seconds < build_seconds %}
         {% assign show_past = true %}
       {% endif %}
       {% if show_past %}
@@ -60,7 +56,7 @@ description: Events, seminars, and outreach from the Salzburg Complexity Group.
           {% if event.recurrence == 'weekly' %}
             <div class="event-schedule" aria-label="Every Tuesday, {{ event.time | escape }}"><span>Weekly</span><strong>Tuesday</strong><span>{{ event.time | escape }}</span></div>
           {% else %}
-            <time datetime="{{ event.date | date: '%Y-%m-%d' }}"><span>{{ event.date | date: '%b' }}</span><strong>{{ event.date | date: '%d' }}</strong><span>{{ event.date | date: '%Y' }}</span></time>
+            <time class="{% if event.end_date %}date-range{% endif %}" datetime="{{ event.date | date: '%Y-%m-%d' }}" aria-label="{{ event.date | date: '%B %d, %Y' }}{% if event.end_date %} to {{ event.end_date | date: '%B %d, %Y' }}{% endif %}"><span>{{ event.date | date: '%b' }}</span><strong>{{ event.date | date: '%d' }}{% if event.end_date %}-{{ event.end_date | date: '%d' }}{% endif %}</strong><span>{{ event.date | date: '%Y' }}</span></time>
           {% endif %}
           <div><h3>{{ event.title | escape }}</h3><p class="event-place">{{ event.place | escape }}</p><p>{{ event.description | escape }}</p>{% if event.link %}{% if event.link contains '://' %}<a class="text-link" href="{{ event.link | escape }}">{% else %}<a class="text-link" href="{{ event.link | relative_url }}">{% endif %}{{ event.link_label | default: 'More information' | escape }} <span aria-hidden="true">&#8599;</span></a>{% endif %}</div>
         </article>

@@ -1,15 +1,19 @@
 <article class="project-card" id="{{ include.project.slug | escape }}">
+  <a class="project-card-logo" href="{{ include.project.url | escape }}" aria-label="Visit {{ include.project.name | escape }} website">
+    <img src="{{ include.project.logo | relative_url }}" alt="{{ include.project.logo_alt | escape }}" loading="lazy">
+  </a>
   <p class="eyebrow">{{ include.project.category | escape }}</p>
-  <h3>{{ include.project.title | escape }}</h3>
-  <p>{{ include.project.summary | escape }}</p>
-  <dl class="project-meta">
-    <div><dt>Keywords</dt><dd>{{ include.project.keywords | join: ', ' | escape }}</dd></div>
-    <div><dt>People</dt><dd>{{ include.project.people | join: ', ' | escape }}</dd></div>
-  </dl>
+  <h2>{{ include.project.name | escape }}</h2>
+  <p class="project-summary">{{ include.project.summary | escape }}</p>
+  <section class="project-involvement" aria-label="Our group's involvement">
+    <h3>Our involvement</h3>
+    <p>{{ include.project.involvement | escape }}</p>
+  </section>
+  {% if include.project.publications.size > 0 %}
   <div class="related-publications">
-    <h3>Related publications</h3>
-    {% if include.project.publications.size > 0 %}
-      <ul>{% for paper_id in include.project.publications %}{% assign paper = site.data.publications | where: 'id', paper_id | first %}{% if paper %}<li><a href="{{ '/publications/' | relative_url }}#{{ paper.id | escape }}">{{ paper.title | escape }}</a></li>{% endif %}{% endfor %}</ul>
-    {% else %}<p>Examples to be added.</p>{% endif %}
+    <h3>Selected research output</h3>
+    <ul>{% for paper_id in include.project.publications %}{% assign paper = site.data.publications | where: 'id', paper_id | first %}{% if paper %}<li><a href="{{ '/publications/' | relative_url }}#{{ paper.id | escape }}">{{ paper.title | escape }}</a></li>{% endif %}{% endfor %}</ul>
   </div>
+  {% endif %}
+  <a class="project-site-link" href="{{ include.project.url | escape }}">Visit {{ include.project.name | escape }} website <span aria-hidden="true">&#8599;</span></a>
 </article>

@@ -1,6 +1,6 @@
 # Salzburg Complexity Group website
 
-An English-language draft Jekyll site for review. All people, projects, publications, news, and events in the data files are examples and must be replaced with verified group information before launch.
+An English-language Jekyll site for the Salzburg Complexity Group. The team, research collaborations, selected publications, news, and scheduled events are maintained as editable data; continue to verify details as the site develops.
 
 ## Run locally
 
@@ -34,18 +34,17 @@ To turn off search-engine exclusion at launch, change `noindex: true` to `noinde
 Repeated content lives in YAML under `_data/`; edit those files rather than adding repeated markup to pages. Keep YAML indentation consistent (two spaces), quote text containing YAML punctuation when needed, and give linked items unique IDs/slugs.
 
 - **Team member:** Add a record under `current:` or `alumni:` in `_data/team.yml`. Set `name`, `role`, `interest`, `image`, `image_alt`, and `link`. Put a portrait in `assets/img/` and use its path beginning with `/assets/img/`; the included illustrated SVG is only a placeholder.
-- **Publication:** Add a record to `_data/publications.yml` with a unique `id`, `authors` list, `title`, `venue`, and numeric `year`. Optional `pdf`, `doi`, and `arxiv` values add links. Add local PDFs under `assets/files/`; DOI and arXiv links are ordinary outbound links and do not load remote resources until a reader follows them.
-- **Event:** Add an ISO date (`YYYY-MM-DD`), `title`, `place`, and `description` to `_data/events.yml`. Optional `link` and `link_label` fields add a details link. For a recurring weekly event, add `recurrence: weekly` and `time`; it stays under Upcoming until its optional `end_date` passes. One-time events move to Past according to their date at build time.
+- **Publication:** Add a record to `_data/publications.yml` with a unique `id`, `authors` list, `title`, and `venue`. Add a numeric `year` for published work; use `status: forthcoming` when no publication year is available. Optional `pdf`, `doi`, `arxiv`, and `url` values add links. Add local PDFs under `assets/files/`.
+- **Event:** Add an ISO date (`YYYY-MM-DD`), `title`, `place`, and `description` to `_data/events.yml`. Add optional `end_date` for a multi-day event; Upcoming/Past uses the end date and the date range is shown. Optional `link` and `link_label` fields add a details link. For a recurring weekly event, add `recurrence: weekly` and `time`; it stays under Upcoming until its optional `end_date` passes. One-time events move to Past at build time.
 - **News:** Add `date`, `title`, `summary`, and an internal `url` to `_data/news.yml`. The home page shows the four newest items, and the News archive at `/news/` lists all entries newest first. The archive is linked from Home and is not a header tab.
-- **Research project:** Add a unique `slug`, `title`, `category`, `summary`, `keywords`, `people`, and publication IDs to `_data/projects.yml`. The project card becomes addressable at `/research/#your-slug`.
-- **Research group:** Edit `_data/research_groups.yml` to change a group name, local logo, or its list of project slugs. Set each project's `group` in `_data/projects.yml` to place it under the matching group. A group with an empty project list displays its branding only.
+- **Research collaboration:** Edit one of the entries in `_data/projects.yml` to update its `name`, `category`, `summary`, `involvement`, `logo`, and `url`. Selected publications for MACBeh are linked by publication ID.
 - **Sponsor or institutional logo:** Update `_data/sponsors.yml` and place the image under `assets/img/sponsors/`. The shared footer displays these logos on every page. Keep official logos proportionally scaled and unchanged.
 
 The footer links to `/imprint/` and `/data-policy/`. The Contact page includes a form that opens the visitor's email application with the message prepared; it does not submit data to or store data on the website.
 
 ## Hosting and launch notes
 
-The root-domain repository is `sbg-complexity.github.io`, owned by the `sbg-complexity` organization. GitHub Pages organization-site naming depends on these matching names. This draft has `noindex: true` and an internal-review disclaimer; replace all example content and confirm contact details before making it public.
+The root-domain repository is `sbg-complexity.github.io`, owned by the `sbg-complexity` organization. GitHub Pages organization-site naming depends on these matching names. This draft has `noindex: true` and an internal-review disclaimer; review current content and confirm contact details before making it public. The MACBeh workshop listing currently gives the city of Salzburg and notes that the venue has not yet been announced.
 
 The workflow in `.github/workflows/pages.yml` builds and deploys the site with GitHub Actions. After merging it to the default branch, select **Settings → Pages → Build and deployment → Source → GitHub Actions** for the repository. The local `Gemfile.lock` is ignored because the site's dependencies must resolve on both Windows and GitHub's Linux runners.
 
