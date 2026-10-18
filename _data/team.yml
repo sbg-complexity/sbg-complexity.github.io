@@ -92,7 +92,7 @@ current:
     image_position: 50% 58%
     image_origin: 50% 58%
   - name: "Mar\u00EDa Trigos"
-    role: Philosophy and Art Student
+    role: MA Student
     bio: >-
       I am a philosophy and art student in Salzburg, currently working and
       interested in topics on philosophy of science, logic, and visual arts. I
@@ -120,9 +120,4 @@ visitors:
     image_scale: 1.0
     image_position: 50% 50%
     image_origin: 50% 50%
-alumni:
-  - name: Example Alum
-    role: Former Group Member · Placeholder
-    bio: Placeholder profile for an alumnus. Replace this text with a brief biography and current affiliation.
-    image: /assets/img/person-placeholder.svg
-    image_alt: Neutral illustrated placeholder portrait
+alumni: []

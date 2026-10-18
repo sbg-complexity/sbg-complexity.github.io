@@ -2,7 +2,7 @@
 layout: default
 title: Team
 permalink: /team/
-description: Current members, visitors, and alumni of the Salzburg Complexity Group.
+description: Current members and visitors of the Salzburg Complexity Group.
 ---
 <header class="page-hero wrap"><p class="eyebrow">People &amp; perspectives</p><h1>Team</h1><p>Meet the researchers and scholars in the group.</p></header>
 <section class="section wrap team-section">
