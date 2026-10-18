@@ -91,6 +91,23 @@ current:
     image_scale: 1.2
     image_position: 50% 58%
     image_origin: 50% 58%
+  - name: "Mar\u00EDa Trigos"
+    role: Philosophy and Art Student
+    bio: >-
+      I am a philosophy and art student in Salzburg, currently working and
+      interested in topics on philosophy of science, logic, and visual arts. I
+      have focused on the concepts of post-colonialism and anti-colonialism,
+      through which I explore the intersections of political, ethical, and
+      philosophical issues. My research in philosophy of science has moved
+      around the debate of scientific objectivity and the use of values in
+      science, including both epistemic and ethical concerns. Besides working on
+      research and projects in a context of analytic philosophy, I also explore
+      such concepts through artistic interdisciplinary media.
+    image: /assets/img/profiles/maria-trigos.jpg
+    image_alt: "Portrait of Mar\u00EDa Trigos in the mountains"
+    image_scale: 1.0
+    image_position: 50% 50%
+    image_origin: 50% 50%
 visitors:
   - name: Turad Miguel Turad
     role: Visiting Researcher · PhD Candidate

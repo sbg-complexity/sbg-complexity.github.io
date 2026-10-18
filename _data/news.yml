@@ -1,12 +1,12 @@
-- date: 2026-09-15
-  title: Example group seminar announced
-  summary: An example news item for previewing the home page list.
-  url: /outreach/#example-seminar
-- date: 2026-07-02
-  title: Example working paper shared
-  summary: A placeholder update about a paper on model adaptation.
-  url: /publications/#example-adaptation-2025
-- date: 2026-04-18
-  title: Example research collaboration begins
-  summary: A sample announcement about a cross-disciplinary project.
-  url: /research/#critical-transitions
+- date: 2026-10-19 # Date added to this site; the video page does not show an original publication date.
+  title: ORF-TV feature on MACBeh
+  summary: The University of Salzburg's video titled Philosophin erforscht Ordnung features the ERC-funded MACBeh project. English subtitles are available.
+  url: https://vimeo.com/1154980054
+- date: 2026-10-06
+  title: Complexity Working Seminar launched
+  summary: The seminar began on October 6 and meets every Tuesday from 10:00 to 12:00 at Franziskanergasse 1, 5020 Salzburg. Visitors are welcome.
+  url: /outreach/#complexity-working-seminar
+- date: 2025-09-04
+  title: MACBeh in the news
+  summary: The University of Salzburg announced Patricia Palacios's ERC Starting Grant for MACBeh, a project exploring how models from physics are adapted to the study of critical behavior across scientific fields.
+  url: https://www.plus.ac.at/news/erc-starting-grant-fuer-patricia-palacios-von-der-universitaet-salzburg-physikalische-prinzipien-im-kontext-kollektiven-verhaltens/

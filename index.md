@@ -11,10 +11,10 @@ description: The Salzburg Complexity Group researches model adaptation and criti
     <p class="hero-intro">{{ site.intro | escape }}</p>
     <a class="button-link" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
   </div>
-  <div class="hero-art" role="img" aria-label="Abstract lines and nodes suggesting an interconnected research network">
+  <div class="hero-art" role="img" aria-label="An atom-like illustration with six electrons orbiting its nucleus">
     <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span>
     <span class="node node-one"></span><span class="node node-two"></span><span class="node node-three"></span>
-    <span class="node node-four"></span><span class="node node-five"></span><img class="hero-center" src="{{ '/assets/img/scg-logo.png' | relative_url }}" alt="">
+    <span class="node node-four"></span><span class="node node-five"></span><span class="node node-six"></span><img class="hero-center" src="{{ '/assets/img/scg-logo.png' | relative_url }}" alt="">
   </div>
 </section>
 
@@ -29,7 +29,7 @@ description: The Salzburg Complexity Group researches model adaptation and criti
     {% for item in latest_news limit: 4 %}
       <article class="news-item">
         <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time>
-        <div><h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3><p>{{ item.summary | escape }}</p></div>
+        <div><h3><a href="{% if item.url contains '://' %}{{ item.url | escape }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.title | escape }}</a></h3><p>{{ item.summary | escape }}</p></div>
         <span class="news-arrow" aria-hidden="true">↗</span>
       </article>
     {% endfor %}
