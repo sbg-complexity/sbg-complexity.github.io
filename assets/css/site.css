@@ -191,13 +191,13 @@ h1 { max-width: 700px; margin: .2rem 0 1.2rem; font-size: clamp(3rem, 7vw, 5.55r
 .footer-meta a { color: inherit; text-underline-offset: .18em; }
 .footer-meta a:hover { color: var(--green-dark); }
 .footer-home-link { display: inline-flex; align-items: center; gap: .35rem; }
-.footer-home-mark { display: block; width: 18px; height: 18px; }
+.footer-separator-logo { display: block; width: 15px; height: 15px; transform: translateY(1px); }
 
 @media (prefers-color-scheme: dark) {
   :root { --paper: #151d19; --surface: #1c2721; --ink: #edf0e9; --muted: #bdc8be; --line: #3a4940; --green: #a4cbb0; --green-dark: #a7d2b4; --gold: #e0b570; --soft-green: #202f27; --shadow: 0 18px 45px rgba(0, 0, 0, .28); }
   .wordmark, .site-nav a, .news-item h3 a, .news-item h2 a, .person-info h3 a { color: var(--ink); }
   .wordmark-mark { filter: invert(1); }
-  .footer-home-mark { filter: invert(1); }
+  .footer-separator-logo { filter: invert(1); }
   .hero-center { filter: invert(1) drop-shadow(var(--shadow)); }
   .team-page-lockup { filter: invert(1); }
   .hero-art { background: radial-gradient(circle at center, rgba(59, 82, 65, .8), rgba(37, 52, 42, .42) 55%, rgba(21, 29, 25, 0) 72%); }
