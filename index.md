@@ -11,10 +11,10 @@ description: The Salzburg Complexity Group studies how scientific models are tra
     <p class="hero-intro">{{ site.intro | escape }}</p>
     <a class="button-link" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
   </div>
-  <div class="hero-art" role="img" aria-label="An atom-like illustration with six electrons orbiting its nucleus">
+  <div class="hero-art" role="img" aria-label="The group's symbol at the centre of three elliptical orbits, with six gold electrons evenly distributed around the orbits">
     <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span>
     <span class="node node-one"></span><span class="node node-two"></span><span class="node node-three"></span>
-    <span class="node node-four"></span><span class="node node-five"></span><span class="node node-six"></span><img class="hero-center" src="{{ '/assets/img/scg-logo.png' | relative_url }}" alt="">
+    <span class="node node-four"></span><span class="node node-five"></span><span class="node node-six"></span><img class="hero-center" src="{{ '/assets/img/brand/complexity-group-mark.svg' | relative_url }}" alt="">
   </div>
 </section>
 

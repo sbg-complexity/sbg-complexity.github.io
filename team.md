@@ -4,7 +4,14 @@ title: Team
 permalink: /team/
 description: Current members and visitors of the Salzburg Complexity Group.
 ---
-<header class="page-hero wrap"><p class="eyebrow">People &amp; perspectives</p><h1>Team</h1><p>Meet the researchers and scholars in the group.</p></header>
+<header class="page-hero team-page-hero wrap">
+  <div>
+    <p class="eyebrow">People &amp; perspectives</p>
+    <h1>Team</h1>
+    <p>Meet the researchers and scholars in the group.</p>
+  </div>
+  <img class="team-page-lockup" src="{{ '/assets/img/brand/complexity-group-stacked-lockup.svg' | relative_url }}" alt="Salzburg Complexity Group logo">
+</header>
 <section class="section wrap team-section">
   <h2>Current members</h2>
   <div class="team-grid">

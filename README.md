@@ -23,6 +23,8 @@ Open the local address printed by Jekyll (usually `http://127.0.0.1:4000/`). Use
 
 Keep image names lowercase and descriptive, and use paths beginning with `/assets/` in YAML. The site applies Jekyll's `relative_url` filter when rendering those paths.
 
+The supplied logo files are in `assets/img/brand/`. The cropped mark SVG is used in the header, browser tab, and center of the homepage atom; the wordmark SVG sits beside the mark in the header. The stacked lockup appears in the Team page introduction. Circular, stacked, and wordmark lockups are also available as transparent PNGs for presentations and other materials.
+
 ## Edit the group details
 
 Update `_config.yml` for the group name, description, tagline, introduction, affiliation, contact email, draft disclaimer, and `noindex` setting. Keep `baseurl` empty for an organization or user site served from the domain root. If the repository is instead hosted as a project site, set `baseurl` to its path (for example, `/repository-name`); internal links and assets use Jekyll's `relative_url` filter.
