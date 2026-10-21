@@ -8,7 +8,6 @@ description: Philosophical perspectives on complex systems, scientific modeling,
     <p class="eyebrow">{{ site.affiliation | escape }}</p>
     <h1>{{ site.title | escape }}</h1>
     <p class="hero-tagline">{{ site.tagline | escape }}</p>
-    <p class="hero-intro">{{ site.intro | escape }}</p>
     <a class="button-link" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
   </div>
   <figure class="hero-brand">

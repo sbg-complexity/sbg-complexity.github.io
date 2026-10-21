@@ -27,7 +27,7 @@ The supplied logo files are in `assets/img/brand/`. The cropped mark SVG is used
 
 ## Edit the group details
 
-Update `_config.yml` for the group name, description, tagline, introduction, affiliation, contact email, draft disclaimer, and `noindex` setting. Keep `baseurl` empty for an organization or user site served from the domain root. If the repository is instead hosted as a project site, set `baseurl` to its path (for example, `/repository-name`); internal links and assets use Jekyll's `relative_url` filter.
+Update `_config.yml` for the group name, description, tagline, affiliation, contact email, draft disclaimer, and `noindex` setting. Keep `baseurl` empty for an organization or user site served from the domain root. If the repository is instead hosted as a project site, set `baseurl` to its path (for example, `/repository-name`); internal links and assets use Jekyll's `relative_url` filter.
 
 To turn off search-engine exclusion at launch, change `noindex: true` to `noindex: false` in `_config.yml`. Rebuild the site after changing configuration.
 
