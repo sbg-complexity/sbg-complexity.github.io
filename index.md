@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: The Salzburg Complexity Group studies how scientific models are transferred and adapted across disciplines to investigate complex systems and critical behavior.
+description: Philosophical perspectives on complex systems, scientific modeling, emergence, uncertainty, values, and critical transitions.
 ---
 <section class="hero wrap">
   <div class="hero-copy">
@@ -11,11 +11,10 @@ description: The Salzburg Complexity Group studies how scientific models are tra
     <p class="hero-intro">{{ site.intro | escape }}</p>
     <a class="button-link" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
   </div>
-  <div class="hero-art" role="img" aria-label="The group's symbol at the centre of three elliptical orbits, with six gold electrons evenly distributed around the orbits">
-    <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span>
-    <span class="node node-one"></span><span class="node node-two"></span><span class="node node-three"></span>
-    <span class="node node-four"></span><span class="node node-five"></span><span class="node node-six"></span><img class="hero-center" src="{{ '/assets/img/brand/complexity-group-mark.svg' | relative_url }}" alt="">
-  </div>
+  <figure class="hero-brand">
+    <img src="{{ '/assets/img/brand/complexity-group-mark.svg' | relative_url }}" alt="Salzburg Complexity Group symbol">
+    <figcaption>Logo by {{ site.logo_credit | escape }}</figcaption>
+  </figure>
 </section>
 
 <section class="keyword-band" aria-label="Research themes">

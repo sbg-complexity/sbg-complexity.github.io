@@ -23,7 +23,7 @@ Open the local address printed by Jekyll (usually `http://127.0.0.1:4000/`). Use
 
 Keep image names lowercase and descriptive, and use paths beginning with `/assets/` in YAML. The site applies Jekyll's `relative_url` filter when rendering those paths.
 
-The supplied logo files are in `assets/img/brand/`. The cropped mark SVG is used in the header, browser tab, and center of the homepage atom; the wordmark SVG sits beside the mark in the header. The stacked lockup appears in the Team page introduction. Circular, stacked, and wordmark lockups are also available as transparent PNGs for presentations and other materials.
+The supplied logo files are in `assets/img/brand/`. The cropped mark SVG is used in the header, browser tab, and homepage hero; the wordmark SVG sits beside the mark in the header. The homepage credits the logo to the artist named in `_config.yml`. The stacked lockup appears in the Team page introduction. Circular, stacked, and wordmark lockups are also available as transparent PNGs for presentations and other materials.
 
 ## Edit the group details
 
